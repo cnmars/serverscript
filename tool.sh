@@ -144,11 +144,11 @@ systemd --daemon-reload
 }
 
 bbr(){
-  wget -N "http://sh.neko.sbs:1111/bbr/bbr.sh" -O bbr.sh && bash bbr.sh
+  wget -N "https://raw.githubusercontent.com/cnmars/serverscript/b08af0199afe0cff02eabba9408d4dc7c115fcc1/bbr.sh" -O bbr.sh && bash bbr.sh
 }
 
 Update_Shell(){
-  wget -N "http://sh.neko.sbs:1111/tools.sh" -O tools.sh && chmod +x tools.sh && ./tools.sh
+  wget -N "https://raw.githubusercontent.com/cnmars/serverscript/main/tool.sh" -O tools.sh && chmod +x tools.sh && ./tools.sh
 }
 
 get_opsy() {
