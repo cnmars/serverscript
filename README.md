@@ -6,10 +6,6 @@ https://raw.githubusercontent.com/cnmars/serverscript/main/tool.sh
 
 #使用方法
 
-```
-```
-
-
 
 ```
 /etc/sysctl.conf
@@ -28,6 +24,8 @@ https://raw.githubusercontent.com/cnmars/serverscript/main/tool.sh
      net.core.default_qdisc = fq
      net.ipv4.tcp_thin_linear_timeouts=1
      net.ipv4.tcp_fastopen=3
-
+```
+保存生效
+```
 sysctl -p && reboot
 ```
