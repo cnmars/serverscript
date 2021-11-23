@@ -5,6 +5,7 @@ https://raw.githubusercontent.com/cnmars/serverscript/main/tool.sh
 ```
 
 #使用方法
+this is dev script!
 
 ```
 bash <(curl -sL https://raw.githubusercontent.com/cnmars/serverscript/main/tool.sh) 
