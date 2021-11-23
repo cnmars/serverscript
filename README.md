@@ -6,6 +6,9 @@ https://raw.githubusercontent.com/cnmars/serverscript/main/tool.sh
 
 #使用方法
 
+```
+bash <(curl -sL https://raw.githubusercontent.com/cnmars/serverscript/main/tool.sh) 
+```
 
 ```
 /etc/sysctl.conf
