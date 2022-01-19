@@ -87,3 +87,21 @@ git hooks
 ## ~~~~/src~~ 
 
 ~~以前好多项目使用的是src 模式，已经不推荐使用了~~
+
+## 比如V2RAY-CORE
+
+
+
+```bash
+v2ray-core
+├── app        // 应用模块
+│   ├── router // 路由
+├── common     // 公用代码
+├── proxy      // 通讯协议
+│   ├── blackhole
+│   ├── dokodemo-door
+│   ├── freedom
+│   ├── socks
+│   ├── vmess
+├── transport  // 传输模块
+```
